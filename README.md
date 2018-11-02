@@ -1,2 +1,2 @@
 # ghena-learn
-Lessons for Ghena
+Lessons for Error & Hex
