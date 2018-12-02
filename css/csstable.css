@@ -1,0 +1,23 @@
+body {
+    background-color: lavender;
+}
+table {
+    background-color: white;
+    border-color: white;
+}
+td {
+    border: 3px solid white;
+    padding: 3px 5px;
+}
+/* tr:nth-child(1) {
+    background-color: white;
+} */
+table tr:nth-child(2n-1) {
+    background-color: gray;
+}
+table tr td:nth-child(2), table tr td:nth-child(4) {
+    text-align: center;
+}
+table tr:hover {
+    background: red;
+}
