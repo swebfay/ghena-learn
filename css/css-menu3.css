@@ -1,0 +1,34 @@
+table {
+    
+    background: lightgray;
+    
+    border-spacing: 1px;
+    text-align: center;
+    
+}
+
+tr td {
+    margin: 5px;
+    padding: 5px;
+}
+tr {
+    
+}
+td {
+    
+}
+th {
+    border-bottom: 1px solid black;
+}
+.weekand {
+    color: gray;
+}
+td:hover {
+    text-decoration: underline;
+}
+th:hover {
+    text-decoration: underline;
+}
+.active {
+    color: red;
+}

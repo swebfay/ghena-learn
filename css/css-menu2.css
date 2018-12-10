@@ -1,0 +1,84 @@
+nav {
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    background-color: white;
+    /* border: 1px black solid; */
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+li {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 10px;
+}
+a {
+    
+    color: #CBCBCB;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    height: 25px;
+    width: 80px;
+    padding: 30px 0 0 0;
+    transition: background-image 2s, color 2s;
+}
+a#first {
+    background-image: url(../img/1.png);
+    background-repeat: no-repeat;
+    /* transition-property: background-image;
+    transition-duration: 2s; */
+    /* transition: background-image 2s; */
+    /* background: [url(../img/1.png) no-repeat,]; */
+}
+a#second {
+    background-image: url(../img/2.png);
+    background-repeat: no-repeat;
+    
+}
+a#third {
+    background-image: url(../img/3.png);
+    background-repeat: no-repeat;
+    
+}
+a#fouth {
+    background-image: url(../img/4.png);
+    background-repeat: no-repeat;
+}
+a#fifth {
+    background-image: url(../img/5.png);
+    background-repeat: no-repeat;
+}
+a#first:hover {
+
+    color: #0099FF;
+    background: url(../img/1-h.png) no-repeat;
+}
+a#second:hover {
+    color: #0099FF;
+    background: url(../img/2-h.png) no-repeat;
+}
+a#third:hover {
+    color: #0099FF;
+    background: url(../img/3-h.png) no-repeat;
+}
+a#fouth:hover {
+    color: #0099FF;
+    background: url(../img/4-h.png) no-repeat;
+}
+a#fifth:hover {
+    color: #0099FF;
+    background: url(../img/5-h.png) no-repeat;
+}
+img {
+    margin: 0;
+    padding: 0;
+}
