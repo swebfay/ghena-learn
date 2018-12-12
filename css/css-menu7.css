@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main1 {
+    display: flex;
+    border: 1px solid black;
+    margin: 10px auto 50px auto;
+    max-width: 700px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.vtoroi {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    
+    margin: 10px 10px;
+}
