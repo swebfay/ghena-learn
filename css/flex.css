@@ -1,0 +1,28 @@
+ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 400px;
+}
+.kvadrat {
+    background-color: aqua;
+    width: 140px;
+    
+}
+.kvadrat2 {
+    background-color: brown;
+    width: 140px;
+    height: 100px;
+}
+.premougol {
+    background-color: crimson;
+    width: 170px;
+    
+}
+.premougol2 {
+    background-color: violet;
+    width: 200px;
+    
+}

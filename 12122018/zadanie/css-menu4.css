@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    background-color: #2696E8;
+    height: 94px;
+    max-width: 700px;
+    margin: 10px auto 50px auto;
+    padding-left: 0;
+    border: 1px solid blue;
+    
+}
+li {
+    padding: 0 0;
+    
+}
+a {
+    text-decoration: none;
+    background-color: #2696E8;
+    color: white;
+    padding: 10px 10px;
+    border: 1px solid blue;
+    display: block;
+    
+    
+}
+a:hover {
+    color: #2696E8;
+    background-color: white;
+}
+.qweasd {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
