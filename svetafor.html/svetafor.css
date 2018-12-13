@@ -1,0 +1,42 @@
+.glavn {
+    width: 200px;
+    height: 400px;
+    border: 1px black solid;
+    /* margin: 0px auto 50px auto; */
+    position: absolute;
+    left: 45%;
+    
+}
+.krasni {
+    background-color: red;
+    border: 1px black solid;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    /* margin: 20px 0 0 50px; */
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+.jelt {
+    background-color: yellow;
+    border: 1px black solid;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    /* margin: 20px 0 0 50px; */
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+.zelen {
+    background-color: green;
+    border: 1px black solid;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    /* margin: 20px 0 0 50px; */
+    position: absolute;
+    top: 65%;
+    left: 25%;
+}
