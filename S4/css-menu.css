@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+header {
+    /* border: 1px solid red; */
+    height: 55px;
+}
+ul {
+    display: flex;
+    padding-left: 65px;
+    margin: 0;
+    width: 100%;
+    height: 55px;
+    background-color: black;
+}
+li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /* padding-left: 10px; */
+}
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    font-size: 20px;
+    
+}
+a:hover {
+    background-color: gray;
+}
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 30px auto 0px auto;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+section {
+    max-width: 60%;
+    /* border: 1px solid black; */
+    text-align: justify;
+    padding: 0 5px;
+}
+aside {
+    text-align: justify;
+    max-width: 20%;
+    /* border: 1px solid black; */
+    padding: 0 5px;
+}
+aside p {
+    font-size: 12px;
+}
+.kar1 {
+    background-image: url(pchela1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.kar2 {
+    background-image: url(pchela2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.kar3 {
+    background-image: url(pchela3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.kar4 {
+    margin-top: 20px;
+    background-image: url(pchela4.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.kar5 {
+    background-image: url(pchela5.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+footer {
+    /* border: 1px solid black; */
+    background-color: black;
+    /* height: 50px; */
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    margin-top: 50px;
+    
+}
+.mblok {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+}
+.bloki {
+    height: 200px;
+    width: 250px;
+    background-color: lightgrey;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    padding: 0 10px;
+}
+.bloki p {
+    font-size: 12px;
+    margin-top: 0;
+}
+.bloki h4 {
+    margin: 0;
+    padding-top: 10px;
+}
+hr {
+    color: grey;
+}
+.nadp {
+    font-size: 12px;
+    text-align: center;
+}
