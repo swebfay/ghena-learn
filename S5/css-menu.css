@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.perlin {
+    height: 20px;
+    background-color: #DDDDDD;
+}
+.vtorlin {
+    display: flex;
+    justify-content: space-between;
+    color: #C60304;
+    height: 50px;
+    /* border: 1px solid black; */
+    padding: 0 100px;
+    background-color: #EEEEEE;
+    align-items: center;
+}
+.vtorlin strong{
+    font-size: 2em;
+}
+.tretlin {
+
+}
+.tretlin ul {
+    display: flex;
+    padding-left: 100px;
+    margin: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #C60304;
+}
+.tretlin ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.tretlin a {
+    text-decoration: none;
+    color: white;
+    background-color: #C60304;
+    padding: 16px 20px;
+    font-size: 20px;
+}
+.tretlin a:hover {
+    background-color: darkred;
+}
+.cetlin_main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E6E6E6;
+    align-items: center;
+    height: 35px;
+}
+.cetlin ul {
+    display: flex;
+    padding-left: 150px;
+    margin: 0;
+    width: 100%;
+    height: 10px;
+    background-color: #E6E6E6;
+}
+.cetlin ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.cetlin a { 
+    color: #666666;
+    background-color: #E6E6E6;
+    padding: 8px 20px;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.piatlin {
+   display: flex;
+   color: #666666;
+   background-color: #E6E6E6;
+   padding-right: 100px;
+   height: 35px;
+   align-items: center;
+}
+.piatlin ul {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 10px;
+    background-color: #E6E6E6;
+}
+.piatlin ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.piatlin p {
+    border-right: 1px solid black;
+    padding-right: 5px;
+    align-items: center;
+}
+.piatlin a {
+    color: #666666;
+    background-color: #E6E6E6;
+    align-items: center;
+    padding-left: 5px;
+}
+/* Начинаются стили контента */
+main {
+    display: flex;
+    max-width: 1160px;
+    margin: 30px auto 0px auto;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+section {
+    max-width: 50%;
+    /* border: 1px solid black; */
+    text-align: justify;
+    padding: 0 5px;
+}
+aside {
+    text-align: justify;
+    max-width: 25%;
+    /* border: 1px solid black; */
+    padding: 0 5px;
+}
+aside p {
+    font-size: 12px;
+}
+.kar1 {
+    background-image: url(pchela1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.kar2 {
+    background-image: url(pchela2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.kar3 {
+    background-image: url(pchela3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.kar4 {
+    margin-top: 20px;
+    background-image: url(pchela4.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.kar5 {
+    background-image: url(pchela5.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+/* Начинается footer */
+footer {
+    display: flex;
+    background-color: #EEEEEE;
+    /* border: 1px solid black; */
+    padding: 0 93px;
+    color: #666666;
+    align-items: center;
+    height: 200px;
+}
+.blokone {
+    width: 20%;
+    font-size: 14px;
+}
+.blokone ul {
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+    /* border: 1px solid black; */
+}
+.blokone ul li {
+    display: flex;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.bloktwo {
+    text-align: center;
+    font-size: 14px;
+    width: 80%;
+    padding-left: 20px;
+}
+.bloktwo h2 {
+    color: #666666;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.bloktwo p {
+    padding-top: 0;
+    margin-top: 0;
+}
+.blokone a {
+    padding-left: 0;
+    margin-left: 0;
+    text-decoration: none;
+    color: #666666;
+}
+.blokone a:hover {
+    text-decoration: underline;
+}
+hr {
+    border-top: 2px solid #A1A1A1;
+  }
