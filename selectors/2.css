@@ -1,0 +1,31 @@
+/* section p, h2 {
+    background-color: yellow;
+}
+div#hello > p.test {
+    background-color: blue;
+}
+.test {
+    background-color: red;
+}
+.hello p.test {
+    background-color: aqua;
+}
+h2.hello.test.eee {
+
+}
+p > i {
+    background-color: green;
+}
+p > a, a.test {}
+
+b + i {
+    background-color: darkgoldenrod;
+} */
+#test>b~i {
+    background-color: slateblue;
+}
+/* h2+p {
+    background-color: pink;
+}
+h2 + p {
+    background-color: crimson; */

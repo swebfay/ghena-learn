@@ -1,0 +1,47 @@
+li {
+    border: 1px solid blue;
+    list-style-position: inside;
+    width: 200px;
+    padding: 3px;
+    margin: 5px;
+}
+li:hover {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    cursor: pointer;
+}
+/* li:hover ~ li:nth-last-child(2n) {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+} */
+li:hover ~ li:not(:last-child) {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+/* li:hover ~ li:nth-child(2n-1) {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+} */
+/* li:hover + li + li {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+} */
+/* li:hover ~ li {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+} */
