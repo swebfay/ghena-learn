@@ -50,6 +50,39 @@ li:nth-child(even) {
     color: red;
     
 } */
-input:checked + label {
+/* input:checked + label {
     color: red;
+} */
+/* li {
+    border: 1px solid red;
+    width: 100px;
+    padding: 2px;
+    margin: 5px;
 }
+li:empty {
+    border: 1px solid blue;
+} */
+/* .test {
+    border: 1px solid blue;
+    width: 400px;
+} */
+/* p {
+    border: 1px solid blue;
+    width: 400px;
+}
+p:not([class]) {
+    border: 1px red solid;
+} */
+@media only screen and (min-width: 480px) {
+p {color: red;}
+}
+@media only screen and (width: 480px) {
+p {color: green;}
+}
+@media only screen and (min-width: 800px) {
+p {color: blue;}
+}
+
+/* if width > 480px { color:blue; }
+if width = 480px { color:green; }
+if width < 480px {color:red;} */
