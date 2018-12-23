@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+   
+}
+@media only screen and (max-width: 800px) {
+.qwe {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-content: space-between;
+}
+
+.per {
+    background-color: green;
+    width:50vh;
+    height:20vh;
+    margin-bottom: 5px;
+    
+}
+
+.vtor {
+    background-color: green;
+    width:50vh;
+    height:20vh;
+    
+
+}
+}
+@media only screen and (width: 800px) and (max-width: 480px) {
+    .qwe {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border: 1px solid black;
+        align-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .per {
+        background-color: green;
+        width:50vh;
+        height:20vh;
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+    
+    .vtor {
+        background-color: green;
+        width:50vh;
+        height:20vh;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .qwe {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border: 1px solid black;
+        align-content: space-between;
+    }
+    
+    .per {
+        background-color: green;
+        width:50vh;
+        height:20vh;
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+    
+    .vtor {
+        background-color: green;
+        width:50vh;
+        height:20vh;
+    }
+}
