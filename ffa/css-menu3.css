@@ -1,0 +1,40 @@
+#wrapper {
+	border: 1px solid black;
+	width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between; 
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+@media screen and (min-width: 800px) {
+	.block {
+		background: green;
+		width: 24%;
+		height: 200px;
+        
+	}
+	/* .block:last-child {
+		margin-right: 0;
+	} */
+}
+@media screen and (max-width: 800px) {
+	.block {
+		background: green;
+		width: 49%;
+		height: 200px;
+        margin-bottom: 2%;
+        display: block;
+	}
+}
+@media screen and (max-width: 480px) {
+	.block {
+		background: green;
+		width: 100%;
+		height: 200px;
+        margin-bottom: 10px;
+        display: block;
+	}
+}
