@@ -1,84 +1,38 @@
-body {
+#wrapper {
+	border: 1px solid black;
+	width: 80%;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-   
-}
-@media only screen and (max-width: 800px) {
-.qwe {
     
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    border: 1px solid black;
-    align-content: space-between;
-}
-
-.per {
-    background-color: green;
-    width:50vh;
-    height:20vh;
-    margin-bottom: 5px;
+    align-content: flex-start;
     
 }
-
-.vtor {
-    background-color: green;
-    width:50vh;
-    height:20vh;
-    
-
+/* .clearfix {
+	clear: both;
+} */
+@media screen and (min-width: 800px) {
+	.block {
+		background: green;
+		width: 49%;
+		height: 300px;
+        margin-right: 2%;
+        
+        
+		/* float: left; */
+		
+		/* box-sizing: border-box; */
+	}
+	.block:last-child {
+		margin-right: 0;
+	}
 }
-}
-@media only screen and (width: 800px) and (max-width: 480px) {
-    .qwe {
-    
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        border: 1px solid black;
-        align-content: space-between;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .per {
-        background-color: green;
-        width:50vh;
-        height:20vh;
-        margin-bottom: 5px;
-        margin-right: 5px;
-    }
-    
-    .vtor {
-        background-color: green;
-        width:50vh;
-        height:20vh;
-    }
-}
-@media only screen and (min-width: 800px) {
-    .qwe {
-    
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        border: 1px solid black;
-        align-content: space-between;
-    }
-    
-    .per {
-        background-color: green;
-        width:50vh;
-        height:20vh;
-        margin-bottom: 5px;
-        margin-right: 5px;
-    }
-    
-    .vtor {
-        background-color: green;
-        width:50vh;
-        height:20vh;
-    }
+@media screen and (max-width: 800px) {
+	.block {
+		background: green;
+		width: 100%;
+		height: 300px;
+        margin-bottom: 10px;
+        display: block;
+	}
 }
