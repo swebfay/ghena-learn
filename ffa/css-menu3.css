@@ -25,8 +25,10 @@
 		background: green;
 		width: 49%;
 		height: 200px;
-        margin-bottom: 2%;
         display: block;
+	}
+	.block:nth-child(1), .block:nth-child(2) {
+		margin-bottom: 2%;
 	}
 }
 @media screen and (max-width: 480px) {
@@ -36,5 +38,8 @@
 		height: 200px;
         margin-bottom: 10px;
         display: block;
+	}
+	.block:last-child {
+		margin-bottom: 0;
 	}
 }
