@@ -1,0 +1,27 @@
+/* #wrapper {
+	border: 1px solid black;
+	width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between; 
+    flex-flow: row wrap;
+    align-content: space-between;
+} */
+
+@media screen and (min-width: 800px) {
+	.block {
+		font-size: 2em;
+	}
+	
+}
+@media screen and (max-width: 800px) {
+	.block {
+		font-size: 1em;
+	}
+}	
+@media screen and (max-width: 480px) {
+	.block {
+		font-size: 0.5em;
+	}
+}
